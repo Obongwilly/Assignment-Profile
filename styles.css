@@ -16,7 +16,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  text-align: center;
+  align-items: center;
 }
 body {
   background-color: black;
