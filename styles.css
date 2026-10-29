@@ -76,8 +76,58 @@ main {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+
 #left > div {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-left: 50px;
+  margin-right: 70px;
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+.hero p {
+  color: #5e5e5c;
+}
+
+.thick {
+  font-weight: bold;
+}
+.Increase {
+  font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+}
+.search {
+  border: black;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #dcdcdc;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+.search-box {
+  height: 100%;
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.btn {
+  display: flex;
+  gap: 20px;
+}
+
+#left .btn {
+  justify-content: space-between;
+  padding: 0 20px 10px;
 }
