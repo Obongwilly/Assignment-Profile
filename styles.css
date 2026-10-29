@@ -19,7 +19,6 @@ header {
   align-items: center;
 }
 body {
-  background-color: black;
 }
 ul {
   display: flex;
@@ -54,4 +53,23 @@ li a {
   border: 0;
   color: white;
   background-color: #171715;
+}
+.hero {
+  margin-top: 76px;
+  display: flex;
+  padding: 0 80px;
+}
+.hero > div {
+  width: 50%;
+}
+#right {
+  width: 100%;
+  overflow: hidden;
+  border-top-right-radius: 10px;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 150px;
 }
